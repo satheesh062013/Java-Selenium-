@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6910" started-at="2022-05-22T19:09:10 SGT" finished-at="2022-05-22T19:09:17 SGT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6910" started-at="2022-05-22T19:09:10 SGT" finished-at="2022-05-22T19:09:17 SGT">
+      <class name="com.SelfPractise_Selenium_Maven.Selenium_TestNG_Maven_Demo">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.SelfPractise_Selenium_Maven.Selenium_TestNG_Maven_Demo@1a3869f4]" name="login" duration-ms="6878" started-at="2022-05-22T19:09:10 SGT" finished-at="2022-05-22T19:09:17 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.SelfPractise_Selenium_Maven.Selenium_TestNG_Maven_Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

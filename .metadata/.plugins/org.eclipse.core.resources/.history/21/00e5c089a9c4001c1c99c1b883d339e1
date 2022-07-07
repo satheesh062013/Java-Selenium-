@@ -1,0 +1,32 @@
+package com.Selenium_Tasks;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FaceBook_WebElements_Custom_XPath 
+{
+	public static void main(String[] args) throws InterruptedException 
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sgsasek\\Desktop\\jAva\\Supporting Files\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.facebook.com/");
+		WebElement createNewAccount = driver.findElement(By.xpath("(//a[@role='button'])[2]"));
+		createNewAccount.click();
+		Thread.sleep(3000);
+		WebElement Firstname = driver.findElement(By.xpath("//input[@placeholder='First name']"));
+		Firstname.sendKeys("Satheeshkumar");
+		WebElement Lastname = driver.findElement(By.xpath("//input[@class='inputtext _58mg _5dba _2ph-'])[2]"));
+		Lastname.sendKeys("Sekar");
+		WebElement MobNo_or_Email = driver.findElement(By.xpath("//input[@name='reg_email__']"));
+		MobNo_or_Email.sendKeys("9790062514");
+		Thread.sleep(5000);
+		WebElement closePopUp = driver.findElement(By.xpath("//img[@height='24']"));
+		closePopUp.click();
+		Thread.sleep(5000);
+		driver.close();
+	}
+
+}

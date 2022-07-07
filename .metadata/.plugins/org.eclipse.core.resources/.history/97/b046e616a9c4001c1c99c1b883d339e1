@@ -1,0 +1,10 @@
+package com.Selenium_Tasks;
+
+public class FaceBook_WebElements_Custom_XPath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

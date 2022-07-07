@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.SelfPractise_Selenium.GetClass&apos; to &apos;ChromeOptions_HeadlessBrowser&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Original element: &apos;com.SelfPractise_Selenium.GetClass&apos;&#x0D;&#x0A;- Renamed element: &apos;com.SelfPractise_Selenium.ChromeOptions_HeadlessBrowser&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GetClass&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.SelfPractise_Selenium{GetClass.java[GetClass" matchStrategy="1" name="ChromeOptions_HeadlessBrowser" qualified="false" references="true" similarDeclarations="true" stamp="1653308808586" textual="false" version="1.0"/>
+</session>

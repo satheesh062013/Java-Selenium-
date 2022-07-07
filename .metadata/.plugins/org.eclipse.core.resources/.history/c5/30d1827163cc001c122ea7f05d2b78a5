@@ -1,0 +1,10 @@
+package com.Selenium_Tasks;
+
+public class WebTable_XPath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

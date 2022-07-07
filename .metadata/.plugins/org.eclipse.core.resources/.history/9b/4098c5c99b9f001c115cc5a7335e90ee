@@ -1,0 +1,8 @@
+package com.Basics;
+
+public interface ClassInterface {
+
+	int bad=-220;
+	
+	public void debit();
+	}

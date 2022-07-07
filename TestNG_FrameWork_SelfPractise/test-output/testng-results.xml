@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="29" passed="28">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="126553" started-at="2022-06-21T18:21:13 SGT" finished-at="2022-06-21T18:23:19 SGT">
+    <groups>
+      <group name="Google">
+        <method signature="TestNGKeyword_Priority_And_Group.googleSearchTest_TestCase()[pri:2, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="googleSearchTest_TestCase" class="com.TestNG_Basics.TestNGKeyword_Priority_And_Group"/>
+        <method signature="TestNGKeyword_Priority_And_Group.googleTitleTest_TestCase()[pri:1, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="googleTitleTest_TestCase" class="com.TestNG_Basics.TestNGKeyword_Priority_And_Group"/>
+      </group> <!-- Google -->
+      <group name="GmailCheck">
+        <method signature="TestNGKeyword_Priority_And_Group.isGmailAvailable_TestCase()[pri:3, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="isGmailAvailable_TestCase" class="com.TestNG_Basics.TestNGKeyword_Priority_And_Group"/>
+      </group> <!-- GmailCheck -->
+    </groups>
+    <test name="Test" duration-ms="126553" started-at="2022-06-21T18:21:13 SGT" finished-at="2022-06-21T18:23:19 SGT">
+      <class name="com.TestNG_Basics.TestNGKeyword_InvocationCount">
+        <test-method status="PASS" signature="invocationCount()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_InvocationCount@e320068]" name="invocationCount" duration-ms="13" started-at="2022-06-21T18:21:14 SGT" finished-at="2022-06-21T18:21:14 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCount -->
+        <test-method status="PASS" signature="invocationCount()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_InvocationCount@e320068]" name="invocationCount" duration-ms="3" started-at="2022-06-21T18:21:14 SGT" finished-at="2022-06-21T18:21:14 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCount -->
+        <test-method status="PASS" signature="invocationCount()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_InvocationCount@e320068]" name="invocationCount" duration-ms="2" started-at="2022-06-21T18:21:14 SGT" finished-at="2022-06-21T18:21:14 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCount -->
+        <test-method status="PASS" signature="invocationCount()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_InvocationCount@e320068]" name="invocationCount" duration-ms="3" started-at="2022-06-21T18:21:14 SGT" finished-at="2022-06-21T18:21:14 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCount -->
+        <test-method status="PASS" signature="invocationCount()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_InvocationCount@e320068]" name="invocationCount" duration-ms="3" started-at="2022-06-21T18:21:14 SGT" finished-at="2022-06-21T18:21:14 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invocationCount -->
+      </class> <!-- com.TestNG_Basics.TestNGKeyword_InvocationCount -->
+      <class name="com.TestNG_Basics.TestNGKeyword_Priority_And_Group">
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="enterUrl" is-config="true" duration-ms="1692" started-at="2022-06-21T18:22:48 SGT" finished-at="2022-06-21T18:22:49 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="googleTitleTest_TestCase()[pri:1, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="googleTitleTest_TestCase" duration-ms="60" started-at="2022-06-21T18:22:49 SGT" finished-at="2022-06-21T18:22:49 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="closeBrowser" is-config="true" duration-ms="106" started-at="2022-06-21T18:22:49 SGT" finished-at="2022-06-21T18:22:50 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="enterUrl" is-config="true" duration-ms="1861" started-at="2022-06-21T18:22:50 SGT" finished-at="2022-06-21T18:22:51 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="googleSearchTest_TestCase()[pri:2, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="googleSearchTest_TestCase" duration-ms="29" started-at="2022-06-21T18:22:51 SGT" finished-at="2022-06-21T18:22:51 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="closeBrowser" is-config="true" duration-ms="4132" started-at="2022-06-21T18:22:51 SGT" finished-at="2022-06-21T18:22:56 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="enterUrl" is-config="true" duration-ms="1750" started-at="2022-06-21T18:22:56 SGT" finished-at="2022-06-21T18:22:57 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="isGmailAvailable_TestCase()[pri:3, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="isGmailAvailable_TestCase" duration-ms="55" started-at="2022-06-21T18:22:57 SGT" finished-at="2022-06-21T18:22:57 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isGmailAvailable_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_Priority_And_Group@58c1670b]" name="closeBrowser" is-config="true" duration-ms="4147" started-at="2022-06-21T18:22:57 SGT" finished-at="2022-06-21T18:23:02 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNG_Basics.TestNGKeyword_Priority_And_Group -->
+      <class name="com.Data_Driven.Parameterized_From_Excel">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Data_Driven.Parameterized_From_Excel@1d8d30f7]" name="setUp" is-config="true" duration-ms="11099" started-at="2022-06-21T18:21:02 SGT" finished-at="2022-06-21T18:21:13 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="faceBookAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Data_Driven.Parameterized_From_Excel@1d8d30f7]" name="faceBookAccount" duration-ms="6086" started-at="2022-06-21T18:21:15 SGT" data-provider="getData" finished-at="2022-06-21T18:21:21 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satheeshkumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sekar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[satheesh062013@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[saikutty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1988.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookAccount -->
+        <test-method status="PASS" signature="faceBookAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Data_Driven.Parameterized_From_Excel@1d8d30f7]" name="faceBookAccount" duration-ms="5949" started-at="2022-06-21T18:21:21 SGT" data-provider="getData" finished-at="2022-06-21T18:21:27 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saikutty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[satheeshkumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[satheesh062014@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[saikutty1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1989.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookAccount -->
+        <test-method status="PASS" signature="faceBookAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Data_Driven.Parameterized_From_Excel@1d8d30f7]" name="faceBookAccount" duration-ms="6147" started-at="2022-06-21T18:21:27 SGT" data-provider="getData" finished-at="2022-06-21T18:21:33 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karthika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[satheeshkumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[satheesh062015@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[saikutty2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1990.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookAccount -->
+        <test-method status="PASS" signature="faceBookAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Data_Driven.Parameterized_From_Excel@1d8d30f7]" name="faceBookAccount" duration-ms="5951" started-at="2022-06-21T18:21:33 SGT" data-provider="getData" finished-at="2022-06-21T18:21:39 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subbulakshmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sekar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[satheesh062016@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[saikutty3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1991.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookAccount -->
+        <test-method status="PASS" signature="faceBookAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Data_Driven.Parameterized_From_Excel@1d8d30f7]" name="faceBookAccount" duration-ms="6471" started-at="2022-06-21T18:21:39 SGT" data-provider="getData" finished-at="2022-06-21T18:21:46 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sekar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[veerasamy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[satheesh062017@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[saikutty4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1992.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookAccount -->
+        <test-method status="PASS" signature="faceBookAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Data_Driven.Parameterized_From_Excel@1d8d30f7]" name="faceBookAccount" duration-ms="6304" started-at="2022-06-21T18:21:46 SGT" data-provider="getData" finished-at="2022-06-21T18:21:52 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karthik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[desigachary]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[satheesh062018@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[saikutty5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1993.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookAccount -->
+        <test-method status="PASS" signature="faceBookAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Data_Driven.Parameterized_From_Excel@1d8d30f7]" name="faceBookAccount" duration-ms="6080" started-at="2022-06-21T18:21:52 SGT" data-provider="getData" finished-at="2022-06-21T18:21:58 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manikandan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thangaraj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[satheesh062019@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[saikutty6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1994.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookAccount -->
+        <test-method status="PASS" signature="faceBookAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Data_Driven.Parameterized_From_Excel@1d8d30f7]" name="faceBookAccount" duration-ms="6345" started-at="2022-06-21T18:21:58 SGT" data-provider="getData" finished-at="2022-06-21T18:22:04 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karthik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nadimuthu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[satheesh062020@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[saikutty7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1995.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookAccount -->
+        <test-method status="PASS" signature="faceBookAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Data_Driven.Parameterized_From_Excel@1d8d30f7]" name="faceBookAccount" duration-ms="6271" started-at="2022-06-21T18:22:04 SGT" data-provider="getData" finished-at="2022-06-21T18:22:11 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jayakumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[t]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[satheesh062021@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[saikutty8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1996.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookAccount -->
+        <test-method status="PASS" signature="faceBookAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Data_Driven.Parameterized_From_Excel@1d8d30f7]" name="faceBookAccount" duration-ms="6053" started-at="2022-06-21T18:22:11 SGT" data-provider="getData" finished-at="2022-06-21T18:22:17 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satheeshkumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sekar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[satheesh062022@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[saikutty9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1997.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookAccount -->
+      </class> <!-- com.Data_Driven.Parameterized_From_Excel -->
+      <class name="com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod">
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod@3e57cd70]" name="enterUrl" is-config="true" duration-ms="1707" started-at="2022-06-21T18:22:17 SGT" finished-at="2022-06-21T18:22:18 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="googleSearchTest_TestCase()[pri:0, instance:com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod@3e57cd70]" name="googleSearchTest_TestCase" duration-ms="24" started-at="2022-06-21T18:22:18 SGT" finished-at="2022-06-21T18:22:18 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod@3e57cd70]" name="closeBrowser" is-config="true" duration-ms="4161" started-at="2022-06-21T18:22:18 SGT" finished-at="2022-06-21T18:22:22 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod@3e57cd70]" name="enterUrl" is-config="true" duration-ms="1877" started-at="2022-06-21T18:22:22 SGT" finished-at="2022-06-21T18:22:24 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="googleTitleTest_TestCase()[pri:0, instance:com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod@3e57cd70]" name="googleTitleTest_TestCase" duration-ms="43" started-at="2022-06-21T18:22:24 SGT" finished-at="2022-06-21T18:22:24 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod@3e57cd70]" name="closeBrowser" is-config="true" duration-ms="4152" started-at="2022-06-21T18:22:24 SGT" finished-at="2022-06-21T18:22:29 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod@3e57cd70]" name="enterUrl" is-config="true" duration-ms="1957" started-at="2022-06-21T18:22:29 SGT" finished-at="2022-06-21T18:22:31 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="isGmailAvailable_TestCase()[pri:0, instance:com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod@3e57cd70]" name="isGmailAvailable_TestCase" duration-ms="49" started-at="2022-06-21T18:22:31 SGT" finished-at="2022-06-21T18:22:31 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isGmailAvailable_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod@3e57cd70]" name="closeBrowser" is-config="true" duration-ms="4140" started-at="2022-06-21T18:22:31 SGT" finished-at="2022-06-21T18:22:35 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod -->
+      <class name="com.TestNG_Basics.AssertClass_For_Validation">
+        <test-method status="PASS" signature="setChromeProperty()[pri:0, instance:com.TestNG_Basics.AssertClass_For_Validation@9a7504c]" name="setChromeProperty" is-config="true" duration-ms="1255" started-at="2022-06-21T18:22:35 SGT" finished-at="2022-06-21T18:22:36 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setChromeProperty -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:com.TestNG_Basics.AssertClass_For_Validation@9a7504c]" name="googleLogoTest" duration-ms="719" started-at="2022-06-21T18:22:36 SGT" finished-at="2022-06-21T18:22:37 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="closeChromeBrowser()[pri:0, instance:com.TestNG_Basics.AssertClass_For_Validation@9a7504c]" name="closeChromeBrowser" is-config="true" duration-ms="4154" started-at="2022-06-21T18:22:37 SGT" finished-at="2022-06-21T18:22:41 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChromeBrowser -->
+        <test-method status="PASS" signature="setChromeProperty()[pri:0, instance:com.TestNG_Basics.AssertClass_For_Validation@9a7504c]" name="setChromeProperty" is-config="true" duration-ms="1245" started-at="2022-06-21T18:22:41 SGT" finished-at="2022-06-21T18:22:42 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setChromeProperty -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:com.TestNG_Basics.AssertClass_For_Validation@9a7504c]" name="googleTitleTest" duration-ms="689" started-at="2022-06-21T18:22:42 SGT" finished-at="2022-06-21T18:22:43 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="closeChromeBrowser()[pri:0, instance:com.TestNG_Basics.AssertClass_For_Validation@9a7504c]" name="closeChromeBrowser" is-config="true" duration-ms="4147" started-at="2022-06-21T18:22:43 SGT" finished-at="2022-06-21T18:22:47 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChromeBrowser -->
+      </class> <!-- com.TestNG_Basics.AssertClass_For_Validation -->
+      <class name="com.TestNG_Basics.TestNGKeyword_dependsOnMethods">
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_dependsOnMethods@6b9651f3]" name="enterUrl" is-config="true" duration-ms="1810" started-at="2022-06-21T18:23:02 SGT" finished-at="2022-06-21T18:23:03 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="googleTitleTest_TestCase()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_dependsOnMethods@6b9651f3]" name="googleTitleTest_TestCase" duration-ms="38" started-at="2022-06-21T18:23:03 SGT" finished-at="2022-06-21T18:23:03 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_dependsOnMethods@6b9651f3]" name="closeBrowser" is-config="true" duration-ms="4151" started-at="2022-06-21T18:23:03 SGT" finished-at="2022-06-21T18:23:08 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_dependsOnMethods@6b9651f3]" name="enterUrl" is-config="true" duration-ms="1744" started-at="2022-06-21T18:23:08 SGT" finished-at="2022-06-21T18:23:09 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="googleSearchTest_TestCase()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_dependsOnMethods@6b9651f3]" name="googleSearchTest_TestCase" duration-ms="27" started-at="2022-06-21T18:23:09 SGT" depends-on-methods="com.TestNG_Basics.TestNGKeyword_dependsOnMethods.googleTitleTest_TestCase" finished-at="2022-06-21T18:23:09 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_dependsOnMethods@6b9651f3]" name="closeBrowser" is-config="true" duration-ms="4180" started-at="2022-06-21T18:23:09 SGT" finished-at="2022-06-21T18:23:14 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_dependsOnMethods@6b9651f3]" name="enterUrl" is-config="true" duration-ms="1725" started-at="2022-06-21T18:23:14 SGT" finished-at="2022-06-21T18:23:15 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="isGmailAvailable_TestCase()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_dependsOnMethods@6b9651f3]" name="isGmailAvailable_TestCase" duration-ms="54" started-at="2022-06-21T18:23:15 SGT" depends-on-methods="com.TestNG_Basics.TestNGKeyword_dependsOnMethods.googleSearchTest_TestCase" finished-at="2022-06-21T18:23:15 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isGmailAvailable_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_dependsOnMethods@6b9651f3]" name="closeBrowser" is-config="true" duration-ms="4108" started-at="2022-06-21T18:23:15 SGT" finished-at="2022-06-21T18:23:19 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNG_Basics.TestNGKeyword_dependsOnMethods -->
+      <class name="com.TestNG_Basics.TestNGKeyword_expectedExceptions">
+        <test-method status="FAIL" signature="arithmetic()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_expectedExceptions@38bc8ab5]" name="arithmetic" duration-ms="0" started-at="2022-06-21T18:23:19 SGT" finished-at="2022-06-21T18:23:19 SGT">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.TestNG_Basics.TestNGKeyword_expectedExceptions.arithmetic(TestNGKeyword_expectedExceptions.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arithmetic -->
+        <test-method status="PASS" signature="convert()[pri:0, instance:com.TestNG_Basics.TestNGKeyword_expectedExceptions@38bc8ab5]" name="convert" duration-ms="1" started-at="2022-06-21T18:23:19 SGT" finished-at="2022-06-21T18:23:19 SGT">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "100A"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "100A"
+at java.lang.NumberFormatException.forInputString(Unknown Source)
+at java.lang.Integer.parseInt(Unknown Source)
+at java.lang.Integer.parseInt(Unknown Source)
+at com.TestNG_Basics.TestNGKeyword_expectedExceptions.convert(TestNGKeyword_expectedExceptions.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convert -->
+      </class> <!-- com.TestNG_Basics.TestNGKeyword_expectedExceptions -->
+      <class name="com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence">
+        <test-method status="PASS" signature="setChromeProperty()[pri:0, instance:com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence@587d1d39]" name="setChromeProperty" is-config="true" duration-ms="6" started-at="2022-06-21T18:21:02 SGT" finished-at="2022-06-21T18:21:02 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setChromeProperty -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence@587d1d39]" name="launchBrowser" is-config="true" duration-ms="1110" started-at="2022-06-21T18:21:13 SGT" finished-at="2022-06-21T18:21:14 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence@587d1d39]" name="loginToApp" is-config="true" duration-ms="1" started-at="2022-06-21T18:22:47 SGT" finished-at="2022-06-21T18:22:47 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence@587d1d39]" name="enterUrl" is-config="true" duration-ms="619" started-at="2022-06-21T18:22:47 SGT" finished-at="2022-06-21T18:22:48 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="googleTitleTest_TestCase()[pri:0, instance:com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence@587d1d39]" name="googleTitleTest_TestCase" duration-ms="52" started-at="2022-06-21T18:22:48 SGT" finished-at="2022-06-21T18:22:48 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest_TestCase -->
+        <test-method status="PASS" signature="logoutFromApp()[pri:0, instance:com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence@587d1d39]" name="logoutFromApp" is-config="true" duration-ms="1" started-at="2022-06-21T18:22:48 SGT" finished-at="2022-06-21T18:22:48 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence@587d1d39]" name="closeBrowser" is-config="true" duration-ms="128" started-at="2022-06-21T18:22:48 SGT" finished-at="2022-06-21T18:22:48 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence@587d1d39]" name="deleteAllCookies" is-config="true" duration-ms="1" started-at="2022-06-21T18:23:19 SGT" finished-at="2022-06-21T18:23:19 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="generateTestReport()[pri:0, instance:com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence@587d1d39]" name="generateTestReport" is-config="true" duration-ms="0" started-at="2022-06-21T18:23:19 SGT" finished-at="2022-06-21T18:23:19 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestReport -->
+      </class> <!-- com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

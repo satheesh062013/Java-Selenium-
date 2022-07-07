@@ -1,0 +1,31 @@
+Feature: Adactin Hotel Booking
+
+Scenario: Login the Adactin Website with Valied user Credentials
+	Given the user launches the chromeBrowser
+	And user launch the Adactin url
+	When enters the Username
+	And enters the Password
+	Then user clickOnLoginButton to land in HotelSearchPage
+
+Scenario Outline: SearchHotel Page with the User Details & Preferences 
+	Given User successfully lands at the Page "<HomePageTitle>"
+	Then user selects the HotelLocation
+	And selects the Hotel
+	And selects the RoomType
+	And selects the No of Rooms
+	And selects the CheckInDate
+	And selects the CheckOutDate
+	And selects the No Of Adults Room
+	And selects the No Of Childs Room
+	Then Click on Search Button
+Examples:
+|HomePageTitle|
+|Adactin.com - Search Hotel|
+	
+	
+Scenario Outline: Itinerary Page
+	Given User successfully lands at the Page "<ItineraryPageTitle>"
+	
+Examples:
+|ItineraryPageTitle|
+||

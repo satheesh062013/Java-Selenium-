@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.TestNG_Basics.TestNGKeyword_InvocationCount"/>
+      <class name="com.Data_Driven.Parameterized_From_Excel"/>
+      <class name="com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod"/>
+      <class name="com.TestNG_Basics.AssertClass_For_Validation"/>
+      <class name="com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence"/>
+      <class name="com.TestNG_Basics.TestNGKeyword_Priority_And_Group"/>
+      <class name="com.TestNG_Basics.TestNGKeyword_dependsOnMethods"/>
+      <class name="com.TestNG_Basics.TestNGKeyword_expectedExceptions"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

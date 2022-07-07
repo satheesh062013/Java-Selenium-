@@ -1,0 +1,31 @@
+package Runner;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+
+import com.BaseClass_AdactinPages_Mini_Proj.BaseClass_Adactin;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions
+	( 
+		
+		features = "C:\\Users\\sgsasek\\Desktop\\jAva\\eclipse-workspace\\Cucumber_Session\\src\\test\\java\\Features\\AdactinHotelBooking.feature",
+		glue = "stepDefinitions",
+		monochrome = true,
+		dryRun = true,
+		strict = true,
+		/*tags = {"@SmokeTest"},*/
+		plugin = {"html:Report","json:Report/cucumber.json","pretty","com.cucumber.listener.ExtentCucumberFormatter:Report/Adactin.html"}
+				
+	)
+
+public class testRunner 
+{
+	
+
+}

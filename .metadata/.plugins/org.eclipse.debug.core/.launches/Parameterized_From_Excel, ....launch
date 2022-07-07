@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TestNG_FrameWork_SelfPractise"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+<mapEntry key="com.Data_Driven.Parameterized_FB_Account_Test_Excel_Sheet" value="main"/>
+<mapEntry key="com.Data_Driven.Parameterized_From_Excel" value="faceBookAccount;getData;readData;setUp"/>
+<mapEntry key="com.Excel_Utilities.Xls_Reader" value="isSheetExist;removeSheet;main;setCellData;setCellData;addColumn;getCellData;getColumnCount;addHyperLink;Xls_Reader;addSheet;removeColumn;getCellRowNum;getRowCount;getCellData"/>
+<mapEntry key="com.TestNG_Basics.AssertClass_For_Validation" value="googleTitleTest;closeChromeBrowser;setChromeProperty;googleLogoTest"/>
+<mapEntry key="com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence" value="closeBrowser;deleteAllCookies;setChromeProperty;loginToApp;googleTitleTest_TestCase;generateTestReport;enterUrl;launchBrowser;logoutFromApp"/>
+<mapEntry key="com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod" value="googleTitleTest_TestCase;enterUrl;isGmailAvailable_TestCase;googleSearchTest_TestCase;closeBrowser"/>
+<mapEntry key="com.TestNG_Basics.TestNGKeyword_InvocationCount" value="invocationCount"/>
+<mapEntry key="com.TestNG_Basics.TestNGKeyword_Priority_And_Group" value="googleTitleTest_TestCase;enterUrl;isGmailAvailable_TestCase;googleSearchTest_TestCase;closeBrowser"/>
+<mapEntry key="com.TestNG_Basics.TestNGKeyword_dependsOnMethods" value="googleSearchTest_TestCase;isGmailAvailable_TestCase;closeBrowser;enterUrl;googleTitleTest_TestCase"/>
+<mapEntry key="com.TestNG_Basics.TestNGKeyword_expectedExceptions" value="arithmetic;convert"/>
+</mapAttribute>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="com.TestNG_Basics.TestNGKeyword_InvocationCount"/>
+<listEntry value="com.TestNG_Basics.TestNGKeyword_Priority_And_Group"/>
+<listEntry value="com.Data_Driven.Parameterized_From_Excel"/>
+<listEntry value="com.Excel_Utilities.Xls_Reader"/>
+<listEntry value="com.TestNG_Basics.PairOf_BeforeMethod_TestCases_AfterMethod"/>
+<listEntry value="com.TestNG_Basics.AssertClass_For_Validation"/>
+<listEntry value="com.Data_Driven.Parameterized_FB_Account_Test_Excel_Sheet"/>
+<listEntry value="com.TestNG_Basics.TestNGKeyword_dependsOnMethods"/>
+<listEntry value="com.TestNG_Basics.BasicAnnotations_And_ExecutionSequence"/>
+<listEntry value="com.TestNG_Basics.TestNGKeyword_expectedExceptions"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

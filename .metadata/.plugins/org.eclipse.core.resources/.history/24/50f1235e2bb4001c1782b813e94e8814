@@ -1,0 +1,17 @@
+package com.POJOPlainOldJavaObject;
+
+public class POJO_ModifyClass 
+{
+
+	public static void main(String[] args) 
+	{
+		POJO_Demo pj = new POJO_Demo();
+		System.out.println(pj.getName());
+		System.out.println(pj.getSalary());
+		pj.setName("Saikutty");
+		pj.setSalary(5);
+		System.out.println(pj.getName());
+		System.out.println(pj.getSalary());
+	}
+
+}

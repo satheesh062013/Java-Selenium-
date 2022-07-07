@@ -1,0 +1,118 @@
+package stepDefinitions;
+
+import org.openqa.selenium.WebDriver;
+
+import com.BaseClass_AdactinPages_Mini_Proj.BaseClass_Adactin;
+import com.PageObjectManager.Page_Object_Manager;
+import com.Properties.File_Reader_Manager;
+
+//import cucumber.api.java.en.Given;
+
+import cucumber.api.java.en.*;
+import junit.framework.Assert;
+
+public class stepDefinition extends BaseClass_Adactin{
+	
+	public Page_Object_Manager pom;
+		
+	//Login Page: 
+	
+	@Given("^the user launches the chromeBrowser$")
+	public void the_user_launches_the_chromeBrowser() throws Throwable 
+	{
+		driver = launchBrowser(File_Reader_Manager.getInstanceFRM().getInstanceCR().getbrowserName());
+		pom = new Page_Object_Manager(driver);
+	}
+	
+	@Given("^user launch the Adactin url$")
+	public void user_launch_the_Adactin_url() throws Throwable 
+	{
+		String urlAddress = File_Reader_Manager.getInstanceFRM().getInstanceCR().geturlAddress();
+		launchUrl(urlAddress);
+	}
+	
+	@When("^enters the Username$")
+	public void enters_the_Username() throws Throwable 
+	{
+		String username = File_Reader_Manager.getInstanceFRM().getInstanceCR().getusername();
+		sendKeysIn(pom.getInstanceLoginPage().getUsername(), username);
+	}
+
+	@When("^enters the Password$")
+	public void enters_the_Password() throws Throwable 
+	{
+		String password = File_Reader_Manager.getInstanceFRM().getInstanceCR().getpassword();
+		sendKeysIn(pom.getInstanceLoginPage().getPassword(), password);
+	}
+
+	@Then("^user clickOnLoginButton to land in HotelSearchPage$")
+	public void user_clickOnLoginButton_to_land_in_HotelSearchPage() throws Throwable
+	{
+		clickOnElement(pom.getInstanceLoginPage().getLoginbtn());
+	}
+	
+	//Search Page:
+	
+	@Given("^User successfully lands at the HotelSearchPage$")
+	public void user_successfully_lands_at_the_HotelSearchPage() throws Throwable 
+	{
+	    Assert.assertEquals(driver.getTitle(), "Adactin.com - Search Hotel");
+	}
+
+	@Given("^user Selects the HotelLocation$")
+	public void user_Selects_the_HotelLocation() throws Throwable 
+	{
+		selectElementByIndex(pom.getInstanceSearchPage().getLocation(), 8);
+	}
+
+	@Given("^selects the Hotel$")
+	public void selects_the_Hotel() throws Throwable 
+	{
+		selectElementByValue(pom.getInstanceSearchPage().getHotels(), "Hotel Sunshine");
+	}
+
+	@Given("^selects the RoomType$")
+	public void selects_the_RoomType() throws Throwable 
+	{
+		selectElementByVisibleText(pom.getInstanceSearchPage().getRoomtype(), "Super Deluxe");
+	}
+
+	@Given("^selects the No of Rooms$")
+	public void selects_the_No_of_Rooms() throws Throwable 
+	{
+		selectElementByValue(pom.getInstanceSearchPage().getNo_of_rooms(), "3");
+	}
+
+	@Given("^selects the CheckInDate$")
+	public void selects_the_CheckInDate() throws Throwable 
+	{
+		pom.getInstanceSearchPage().getDatepick_In().clear();
+		sendKeysIn(pom.getInstanceSearchPage().getDatepick_In(), "15/06/2022");
+	}
+
+	@Given("^selects the CheckOutDate$")
+	public void selects_the_CheckOutDate() throws Throwable 
+	{
+		pom.getInstanceSearchPage().getDatepick_Out().clear();
+		sendKeysIn(pom.getInstanceSearchPage().getDatepick_Out(), "20/06/2022");
+	}
+
+	@Given("^selects the No Of Adults Room$")
+	public void selects_the_No_Of_Adults_Room() throws Throwable 
+	{
+		selectElementByValue(pom.getInstanceSearchPage().getNo_of_adultRooms(), "2");
+	}
+
+	@And("^selects the No Of Childs Room$")
+	public void selects_the_No_Of_Childs_Room() throws Throwable 
+	{
+		selectElementByValue(pom.getInstanceSearchPage().getNo_of_childRooms(), "1");
+	}
+
+	@Then("^Click on Search Button$")
+	public void click_on_Search_Button() throws Throwable 
+	{
+		clickOnElement(pom.getInstanceSearchPage().getSearchbtn());
+	}
+	
+}

@@ -1,0 +1,21 @@
+package Exercise_Programs;
+
+import java.util.Scanner;
+
+public class SelfPractise_PrintNumberReverse 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Number: ");
+		int a = sc.nextInt();
+		int b=a;
+		for(int i=1;i<(((a-1)*2)+1);i++)
+		{
+			System.out.println("\n");
+			
+		}
+	}
+
+}

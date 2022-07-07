@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Cucumber_Session/src/test/java/Features/AdactinLogin.feature&apos; to &apos;AdactinHotelBooking.feature&apos;" description="Rename resource &apos;AdactinLogin.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/java/Features/AdactinLogin.feature" name="AdactinHotelBooking.feature" stamp="1656842424489" updateReferences="true"/>
+</session>
