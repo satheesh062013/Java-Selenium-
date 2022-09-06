@@ -1,8 +1,0 @@
-Feature: Adactin Hotel Booking
-
-Scenario: Login the Adactin Website with Valied user Credentials
-Given the user launches the browser with "chrome"
-And user launch the Adactin url
-When enters the Username
-And enters the Password
-Then user lands in the Adactin HomePage while clickOn Login Button

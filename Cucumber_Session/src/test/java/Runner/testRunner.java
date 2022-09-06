@@ -20,7 +20,7 @@ import cucumber.api.junit.Cucumber;
 		features = "C:\\Users\\sgsasek\\Desktop\\jAva\\eclipse-workspace\\Cucumber_Session\\src\\test\\java\\Features\\AdactinHotelBooking.feature",
 		glue = "stepDefinitions",
 		monochrome = true,
-		dryRun = false,
+		dryRun = false, // When dryRun=true will generate SNIPPETS
 		/*strict = true,*/
 		tags = {"@Test"},
 		plugin = {//Report Generation

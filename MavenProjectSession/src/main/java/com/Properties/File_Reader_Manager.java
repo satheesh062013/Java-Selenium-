@@ -12,13 +12,13 @@ public class File_Reader_Manager
 		while we specify the Constructor as Private; */
 	}
 	
-	public static File_Reader_Manager getInstanceFRM()
+	public static File_Reader_Manager getInstanceFRM() //Static Method
 	{
 		File_Reader_Manager frm = new File_Reader_Manager();
 		return frm;
 	}
 	
-	public Configuration_Reader getInstanceCR() throws IOException
+	public Configuration_Reader getInstanceCR() throws IOException //Non-Static Method
 	{
 		Configuration_Reader cr = new Configuration_Reader();
 		return cr;

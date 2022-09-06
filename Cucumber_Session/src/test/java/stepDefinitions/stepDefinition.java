@@ -43,13 +43,6 @@ public class stepDefinition extends BaseClass_Adactin{
 		
 	//Login Page: 
 	
-//	@Given("^the user launches the chromeBrowser$")
-//	public void the_user_launches_the_chromeBrowser() throws Throwable 
-//	{
-//		driver = launchBrowser(File_Reader_Manager.getInstanceFRM().getInstanceCR().getbrowserName());
-//		pom 
-//	}
-	
 	@Given("^user launch the Adactin url$")
 	public void user_launch_the_Adactin_url() throws Throwable 
 	{

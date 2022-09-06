@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1243400,
+  "duration": 1665500,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,32 +48,30 @@ formatter.match({
   "location": "stepDefinition.user_launch_the_Adactin_url()"
 });
 formatter.result({
-  "duration": 3637446300,
-  "status": "passed"
+  "duration": 490179500,
+  "error_message": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome\u003d104.0.5112.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SG-L-7301093\u0027, ip: \u0027127.0.0.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_321\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\sgsasek\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 23c1a9e5c0adda86bb2212643ad87b1b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat com.BaseClass_AdactinPages_Mini_Proj.BaseClass_Adactin.launchUrl(BaseClass_Adactin.java:61)\r\n\tat stepDefinitions.stepDefinition.user_launch_the_Adactin_url(stepDefinition.java:50)\r\n\tat ✽.Given user launch the Adactin url(C:/Users/sgsasek/Desktop/jAva/eclipse-workspace/Cucumber_Session/src/test/java/Features/AdactinHotelBooking.feature:5)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "stepDefinition.enters_the_Username()"
 });
 formatter.result({
-  "duration": 258171300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.enters_the_Password()"
 });
 formatter.result({
-  "duration": 194502000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.user_clickOnLoginButton()"
 });
 formatter.result({
-  "duration": 3071860600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 152100,
+  "duration": 172848500,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -164,7 +162,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 72300,
+  "duration": 105600,
   "status": "passed"
 });
 formatter.scenario({
@@ -244,74 +242,66 @@ formatter.match({
   "location": "stepDefinition.user_successfully_lands_at_the_Page(String)"
 });
 formatter.result({
-  "duration": 38943600,
-  "status": "passed"
+  "duration": 11720800,
+  "error_message": "junit.framework.ComparisonFailure: expected:\u003c[adactinhotelapp.com]\u003e but was:\u003c[Adactin.com - Search Hotel]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinitions.stepDefinition.user_successfully_lands_at_the_Page(stepDefinition.java:78)\r\n\tat ✽.Given User successfully lands at the Page \"Adactin.com - Search Hotel\"(C:/Users/sgsasek/Desktop/jAva/eclipse-workspace/Cucumber_Session/src/test/java/Features/AdactinHotelBooking.feature:12)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "stepDefinition.user_selects_the_HotelLocation()"
 });
 formatter.result({
-  "duration": 1377946700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.selects_the_Hotel()"
 });
 formatter.result({
-  "duration": 1204351200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.selects_the_RoomType()"
 });
 formatter.result({
-  "duration": 1193323800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.selects_the_No_of_Rooms()"
 });
 formatter.result({
-  "duration": 1197488100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.selects_the_CheckInDate()"
 });
 formatter.result({
-  "duration": 268624200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.selects_the_CheckOutDate()"
 });
 formatter.result({
-  "duration": 270365800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.selects_the_No_Of_Adults_Room()"
 });
 formatter.result({
-  "duration": 1166459400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.selects_the_No_Of_Childs_Room()"
 });
 formatter.result({
-  "duration": 1188273700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.click_on_Search_Button()"
 });
 formatter.result({
-  "duration": 1222997100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 102500,
+  "duration": 154265900,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -367,7 +357,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 117200,
+  "duration": 108200,
   "status": "passed"
 });
 formatter.scenario({
@@ -412,25 +402,24 @@ formatter.match({
   "location": "stepDefinition.user_successfully_lands_at_the_Page(String)"
 });
 formatter.result({
-  "duration": 43119400,
-  "status": "passed"
+  "duration": 5879200,
+  "error_message": "junit.framework.ComparisonFailure: expected:\u003c[adactinhotelapp.com]\u003e but was:\u003c[Adactin.com - Select Hotel]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinitions.stepDefinition.user_successfully_lands_at_the_Page(stepDefinition.java:78)\r\n\tat ✽.Given User successfully lands at the Page \"Adactin.com - Select Hotel\"(C:/Users/sgsasek/Desktop/jAva/eclipse-workspace/Cucumber_Session/src/test/java/Features/AdactinHotelBooking.feature:28)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "stepDefinition.click_on_the_RadioButton_to_Select_the_Hotel()"
 });
 formatter.result({
-  "duration": 3107703800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.click_on_the_ContinueButton()"
 });
 formatter.result({
-  "duration": 1122439100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 58500,
+  "duration": 209239500,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -521,7 +510,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 147300,
+  "duration": 64900,
   "status": "passed"
 });
 formatter.scenario({
@@ -601,74 +590,66 @@ formatter.match({
   "location": "stepDefinition.user_successfully_lands_at_the_Page(String)"
 });
 formatter.result({
-  "duration": 32213500,
-  "status": "passed"
+  "duration": 9109500,
+  "error_message": "junit.framework.ComparisonFailure: expected:\u003c[adactinhotelapp.com]\u003e but was:\u003c[Adactin.com - Book A Hotel]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinitions.stepDefinition.user_successfully_lands_at_the_Page(stepDefinition.java:78)\r\n\tat ✽.Given User successfully lands at the Page \"Adactin.com - Book A Hotel\"(C:/Users/sgsasek/Desktop/jAva/eclipse-workspace/Cucumber_Session/src/test/java/Features/AdactinHotelBooking.feature:37)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "stepDefinition.user_Enters_the_FirstName()"
 });
 formatter.result({
-  "duration": 255852800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.user_Enters_the_LastName()"
 });
 formatter.result({
-  "duration": 308742500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.user_Enters_the_Address()"
 });
 formatter.result({
-  "duration": 362531000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.user_Enters_the_CreditCardDetail()"
 });
 formatter.result({
-  "duration": 315394400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.selects_the_VISACardType()"
 });
 formatter.result({
-  "duration": 1214105600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.selects_the_VISACardExpiryMonth()"
 });
 formatter.result({
-  "duration": 1258995400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.selects_the_VISACardExpiryYear()"
 });
 formatter.result({
-  "duration": 1203982400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.user_Enters_the_CVV_Number()"
 });
 formatter.result({
-  "duration": 258193700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.click_on_the_BookNowButton()"
 });
 formatter.result({
-  "duration": 119787900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 215600,
+  "duration": 211767800,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -729,7 +710,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 98300,
+  "duration": 114500,
   "status": "passed"
 });
 formatter.scenario({
@@ -779,33 +760,30 @@ formatter.match({
   "location": "stepDefinition.user_successfully_lands_at_the_Page(String)"
 });
 formatter.result({
-  "duration": 34765500,
-  "status": "passed"
+  "duration": 17839900,
+  "error_message": "junit.framework.ComparisonFailure: expected:\u003c[adactinhotelapp.com]\u003e but was:\u003c[Adactin.com - Book A Hotel]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinitions.stepDefinition.user_successfully_lands_at_the_Page(stepDefinition.java:78)\r\n\tat ✽.Given User successfully lands at the Page \"Adactin.com - Book A Hotel\"(C:/Users/sgsasek/Desktop/jAva/eclipse-workspace/Cucumber_Session/src/test/java/Features/AdactinHotelBooking.feature:53)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "stepDefinition.click_on_the_MyItineraryButton()"
 });
 formatter.result({
-  "duration": 9573993500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.takes_the_Screenshot()"
 });
 formatter.result({
-  "duration": 619816100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.click_on_the_LogOutButton()"
 });
 formatter.result({
-  "duration": 526213100,
-  "error_message": "java.lang.Exception: Manually Created Exception for Test Purpose\r\n\tat stepDefinitions.stepDefinition.click_on_the_LogOutButton(stepDefinition.java:236)\r\n\tat ✽.And Click on the LogOutButton(C:/Users/sgsasek/Desktop/jAva/eclipse-workspace/Cucumber_Session/src/test/java/Features/AdactinHotelBooking.feature:56)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 559140700,
+  "duration": 181856000,
   "status": "passed"
 });
 });

@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import com.BaseClass_AdactinPages_Mini_Proj.BaseClass_Adactin;
 import com.PageObjectManager.Page_Object_Manager;
@@ -67,7 +68,7 @@ public class RunnerClass_Adactin extends BaseClass_Adactin
 		pom.getInstanceBookingPage().getCvv_No().clear();
 		sendKeysIn(pom.getInstanceBookingPage().getCvv_No(), "789");
 		clickOnElement(pom.getInstanceBookingPage().getBookNowbtn());
-
+		
 		//BookingConfirmationPage
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

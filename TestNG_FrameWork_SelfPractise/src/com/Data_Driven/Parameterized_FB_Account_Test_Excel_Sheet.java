@@ -26,10 +26,6 @@ public class Parameterized_FB_Account_Test_Excel_Sheet {
 		
 		String birthYear = reader.getCellData("TestData1", "birthyear", 2);
 		
-	
-		
-	
-		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\sgsasek\\Desktop\\jAva\\Supporting Files\\chromedriver_win32_101.0.4951.41\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");

@@ -14,10 +14,10 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\sgsasek\Desktop\jAva\eclipse-workspace\Selenium"/>
 			<item value="C:\Users\sgsasek\Desktop\jAva\eclipse-workspace\CucumberProject_Test"/>
 			<item value="C:\Users\sgsasek\Desktop\jAva\eclipse-workspace\"/>
 			<item value="C:\Users\sgsasek\Desktop\jAva\eclipse-workspace"/>
-			<item value="C:\Users\sgsasek\Desktop\jAva\eclipse-workspace\Selenium"/>
 			<item value="C:\Users\sgsasek\Desktop\jAva\eclipse-workspace\Java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -42,16 +42,19 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Self_Preparations.Self_Preparations"/>
 			<item value="Cucumber_Session.Cucumber_Session"/>
 			<item value="Cucumber_SelfPractise.Cucumber_SelfPractise"/>
 			<item value="SeleniumCucumber_SelfPractise.SeleniumCucumber_SelfPractise"/>
 		</list>
 		<list key="groupId">
+			<item value="Self_Preparations"/>
 			<item value="Cucumber_Session"/>
 			<item value="Cucumber_SelfPractise"/>
 			<item value="SeleniumCucumber_SelfPractise"/>
 		</list>
 		<list key="artifactId">
+			<item value="Self_Preparations"/>
 			<item value="Cucumber_Session"/>
 			<item value="Cucumber_SelfPractise"/>
 			<item value="SeleniumCucumber_SelfPractise"/>

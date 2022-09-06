@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
+	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="1"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-1.8"/>
 	<item key="delegateUpdating" value="false"/>
 	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\sgsasek\Desktop\jAva\Supporting Files\poi-bin-3.17-20170915.tar\poi-bin-3.17-20170915\poi-3.17\ooxml-lib"/>
@@ -48,7 +48,9 @@
 	</section>
 	<section name="completion_proposal_size">
 		<item key="size.x" value="1009"/>
-		<item key="size.y" value="499"/>
+		<item key="size.y" value="500"/>
+		<item key="contextSelector.size.x" value="533"/>
+		<item key="contextSelector.size.y" value="336"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
@@ -77,7 +79,7 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="1"/>
+		<item key="index" value="0"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
 		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH" value="550"/>
@@ -133,6 +135,13 @@
 		<item key="DIALOG_Y_ORIGIN" value="11"/>
 		<item key="DIALOG_WIDTH" value="846"/>
 		<item key="DIALOG_HEIGHT" value="885"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.wizards.buildpaths.NewVariableEntryDialog">
+		<item key="DIALOG_X_ORIGIN" value="310"/>
+		<item key="DIALOG_Y_ORIGIN" value="-30"/>
+		<item key="DIALOG_WIDTH" value="972"/>
+		<item key="DIALOG_HEIGHT" value="625"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

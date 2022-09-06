@@ -13,18 +13,31 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.FindBy;
 
 public class Edge_Browser {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.edge.driver", 
-		"\\msedgedriver.exe");
+		System.setProperty("webdriver.edge.driver", "C:\\Users\\sgsasek\\Desktop\\jAva\\Supporting Files\\edgedriver_win64 (1)\\msedgedriver.exe");
 		WebDriver driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		
+		try {
 		driver.get("https://sasportal.in.abb.com/irj/portal");
+		}
+		catch(Exception e)
+		{
+		WebElement failedUrl = driver.findElement(By.xpath("//p[contains(text(),'It looks like the webpage at ')]"));
+		System.out.println(failedUrl.getText());
+			if(failedUrl.getText().contains("might be having issues"))
+			{
+				System.out.println("Check Whether the VPN connection is Established");
+			}
+			else
+				System.out.println("Look for Other Issues: ");
+		}
+		
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//div[text()='Cafe HR']")).click();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
@@ -64,7 +77,7 @@ public class Edge_Browser {
 		}
 		
 		WebElement element = driver.findElement(By.xpath("//*[@id=\"search\"]"));//label[text()='Enter job title, location or employee name']//input[@role='search']//input[@placeholder='Enter job title or location']
-		element.sendKeys("Senior Service Engineer");
+		element.sendKeys("Java Selenium Cucumber");
 		
 //		try {
 //			Edge_Browser.takeScreenShot(driver, "C:\\Users\\sgsasek\\Desktop\\jAva\\eclipse-workspace\\Selenium\\ScreenShots\\Edge_Browser.png");
@@ -74,6 +87,9 @@ public class Edge_Browser {
 //		}
 		
 		Thread.sleep(3000);
+		
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		Thread.sleep(5000);
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,1000)");
